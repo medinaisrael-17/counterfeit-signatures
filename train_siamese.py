@@ -263,7 +263,7 @@ if __name__ == "__main__":
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--margin", type=float, default=1.0)
     parser.add_argument("--embedding_dim", type=int, default=256)
-    parser.add_argument("pairs_per_person", type=int, default=300)
+    parser.add_argument("--pairs_per_person", type=int, default=300)
     parser.add_argument("--width", type=int, default=155)
     parser.add_argument("--height", type=int, default=220)
     parser.add_argument("--make_synth", action="store_true", help="Make Synthetic dataset for quick test")
